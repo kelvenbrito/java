@@ -49,4 +49,16 @@ public class Funcionarios extends Pessoas {
         this.estrumentosTrabalho = estrumentosTrabalho;
     }
 
+    @Override
+    public String getRg() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getRg'");
+    }
+
+    @Override
+    public void setRg(String rg) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setRg'");
+    }
+
 }

@@ -48,4 +48,16 @@ public class Professores extends Pessoas {
         this.horario = horario;
     }
 
+    @Override
+    public String getRg() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getRg'");
+    }
+
+    @Override
+    public void setRg(String rg) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setRg'");
+    }
+
 }

@@ -8,6 +8,11 @@ public abstract class Pessoas {
     String endereco;
     int idade;
     String sexo;
+    String rg;
+
+    public abstract String getRg();
+
+    public abstract void setRg(String rg);
 
     //gets and sets
     public String getNome() {

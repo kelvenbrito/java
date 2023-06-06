@@ -7,6 +7,18 @@ public class Alunos extends Pessoas {
     private String curso;
     private String turma;
 
+    @Override
+    public String getRg() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public void setRg(String rg) {
+        // TODO Auto-generated method stub
+        
+    }
+
     //metodos especificos
     public int getMatricula() {
         return matricula;
